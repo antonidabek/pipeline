@@ -231,7 +231,7 @@ func WithResourceLimit(swap, mem, shmsize, cpuQuota, cpuShares int64, cpuSet str
 
 var (
 	noProxy    = getenv("no_proxy")
-	httpProxy  = getenv("https_proxy")
+	httpProxy  = getenv("http_proxy")
 	httpsProxy = getenv("https_proxy")
 )
 
